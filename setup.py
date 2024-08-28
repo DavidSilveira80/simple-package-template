@@ -27,7 +27,4 @@ setup(
     packages=find_packages(),
     install_requires=requirements,
     python_requires=PYTHON_REQUIRES,
-    classifiers=['Programming Language :: Python 3.9.10',
-                 'Operating System :: OS Independent',
-                 ],
 )
