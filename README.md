@@ -1,27 +1,35 @@
-# package_name
+# conversor_de_unidades
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+Descrição. 
+The conversor_de_unidades is used to:
+	- Converter unidades de temperatura 
+	
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install conversor_de_unidades
 
 ```bash
-pip install package_name
+pip install conversor_de_unidades
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from conversor_de_unidades import temperatura
+temperatura.fahrenheit_para_celsius(fahrenheit)
 ```
 
+## How to collaborate
+  - Criando novos módulos com outros tipos de converção:
+    - distancia
+    - peso
+    - etc...
+
+
+
 ## Author
-My_name
+DavidSilveira80
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
