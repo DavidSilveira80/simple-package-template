@@ -6,14 +6,14 @@ with open("README.md", "r") as f:
 with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
-PACKAGE = "conversor_de_unidades"
+PACKAGE = 'conversor_de_unidades'
 NAME = PACKAGE
-DESCRIPTION = "Converte direntes unidades"
-VERSION = "0.0.1"
-AUTHOR = "DavidSilveira80"
-EMAIL = "my_email"
-URL = "https://github.com/DavidSilveira80/simple-package-template"
-PYTHON_REQUIRES = ">=3.9.10"
+DESCRIPTION = 'Converte direntes unidades'
+VERSION = '0.0.1'
+AUTHOR = 'DavidSilveira80'
+EMAIL = 'davidpsdeveloper80@gmail.com'
+URL = 'https://github.com/DavidSilveira80/simple-package-template'
+PYTHON_REQUIRES = '>=3.9.10'
 
 setup(
     name=NAME,
@@ -22,9 +22,13 @@ setup(
     author_email=EMAIL,
     description=DESCRIPTION,
     long_description=page_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type='text/markdown',
     url=URL,
     packages=find_packages(),
     install_requires=requirements,
     python_requires=PYTHON_REQUIRES,
+    classifiers=['Programming Language :: Python 3.9.10',
+                 'License :: MIT License',
+                 'Operating System :: OS Independent',
+                 ],
 )
