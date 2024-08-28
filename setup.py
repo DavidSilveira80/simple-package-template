@@ -28,7 +28,6 @@ setup(
     install_requires=requirements,
     python_requires=PYTHON_REQUIRES,
     classifiers=['Programming Language :: Python 3.9.10',
-                 'License :: MIT License',
                  'Operating System :: OS Independent',
                  ],
 )
