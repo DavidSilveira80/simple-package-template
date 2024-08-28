@@ -13,7 +13,7 @@ VERSION = '0.0.1'
 AUTHOR = 'DavidSilveira80'
 EMAIL = 'davidpsdeveloper80@gmail.com'
 URL = 'https://github.com/DavidSilveira80/simple-package-template'
-PYTHON_REQUIRES = '>=3.9.10'
+PYTHON_REQUIRES = '>=3.9'
 
 setup(
     name=NAME,
